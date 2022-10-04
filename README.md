@@ -32,7 +32,13 @@ This repository mainly contains the Jupyter notebooks used in the class.
 
 ### Velocities and accelerations  
 
-* [Jupyter notebook](JupyterNotebooks/Velocities_Accelerations_Gradients_solution.ipynb): code associated to *Vide: Velocities, accelerations, gradients*, as well as other examples not solved in the Video. This notebook will ask you to plot particle trajectories, the corresponding velocity and acceleration vectors along the trajectory, and use that to generate the velocity and acceleration vectors in terms of material or spatial coordinates.   
+* [Jupyter notebook](JupyterNotebooks/Velocities_Accelerations_Gradients.ipynb): code associated to *Video: Velocities, accelerations, gradients*, as well as other examples not solved in the Video. This notebook will ask you to plot particle trajectories, the corresponding velocity and acceleration vectors along the trajectory, and use that to generate the velocity and acceleration vectors in terms of material or spatial coordinates.   
 
 * [Jupyter notebook (solution)](JupyterNotebooks/Velocities_Accelerations_Gradients_solution.ipynb): same code as the previous one but will all gaps filled in. 
+
+### Hyperelasticity  
+
+* [Jupyter notebook](JupyterNotebooks/Hyperelasticity.ipynb): code associated to *Video: Hyperelasticity*, as well as other examples not solved in the Video. This notebook will review the neo-Hookean material and emphasize the difference between compressible (coupled) material models, nearly incompressible (uncoupled) materials, and perfectly incompressible models. The code will show how to plot stress-stretch curve for uniaxial tension and ask you to do the same for a Mooney-Rivlin  material model.   
+
+* [Jupyter notebook (solution)](JupyterNotebooks/Hyperelasticity_solution.ipynb): same code as the previous one but will all gaps filled in. 
 
