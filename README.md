@@ -42,3 +42,22 @@ This repository mainly contains the Jupyter notebooks used in the class.
 
 * [Jupyter notebook (solution)](JupyterNotebooks/Hyperelasticity_solution.ipynb): same code as the previous one but will all gaps filled in. 
 
+### Finite elements in 1D  
+
+* [Jupyter notebook](JupyterNotebooks/Finite_element_discretization_1D.ipynb): code associated to *Video: Finite element discretization in 1D*, as well as other examples not solved in the Video. This notebook will review the concept of shape functions to interpolate functions inside an element given nodal values. The code shows an example with linear elements and asks for the solution of an example with quadratic shape functions.   
+
+* [Jupyter notebook (solution)](JupyterNotebooks/Finite_element_discretization_1D_solution.ipynb): same code as the previous one but with the quadratic shape functions.
+
+### Isoparametric map, Gauss quadrature 
+
+* [Jupyter notebook](JupyterNotebooks/Isoparametric_map_1D.ipynb): code associated to *Video: Isoparametric map, Gauss quadrature*, as well as other examples not solved in the Video. This notebook will review the concept of mapping the element physical coordinate x to the parametric domain xi. In this way, shape functions can be put directly in terms of xi and used to interpolate both the geometry and any function over either the x coordinates or the xi coordinates. The first example is based on linear elements and the first activity is with quadratic shape functions. The second part of the notebook introduces the Gauss integration or quadrature to approximate integrals, which will become important to integrate the weak form.   
+
+* [Jupyter notebook (solution)](JupyterNotebooks/Isoparametric_map_1D_solution.ipynb): same code as the previous one but with the quadratic shape functions over the parametric domain, and a second example of Gauss quadrature.
+
+### Linear triangular elements 
+
+* [Jupyter notebook](JupyterNotebooks/Discretization_2D_linear_triangles_solution.ipynb): code associated to *Video: Triangular elements*, it covers the shape functions in terms of (x,y) coordinates as well as in terms of barycentric coordinates for the isoparametric map. The notebook shows how the shape functions can be used to evaluate the function inside of an element given only nodal values.    
+
+### Quadrilateral elements 
+
+* [Jupyter notebook](JupyterNotebooks/Discretization_2D_Q4element_solution.ipynb): code associated to *Video: Quadrilateral elements*, it covers the shape functions in terms of the parametric coordinates (xi,eta) for the linear quadrilateral elements. It shows how to use the shape functions in terms of (xi,eta) and its derivatives to interpolate the geometry and bi-linear functions out of nodal values. 
